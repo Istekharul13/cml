@@ -1,0 +1,147 @@
+body {
+    background-color: #c5c5c5;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 136, 255);
+}
+.navbar-light .navbar-brand {
+    color: aqua;
+}
+
+#navbarSupportedContent a{
+    text-align: right;
+    color: aliceblue;
+}
+
+ul {
+    text-align: right;
+    margin-left: 50px;
+}
+.logo {
+    height: 55px;
+    width: 55px;
+
+}
+
+
+form-container-service{
+    
+
+}
+
+.carousel-inner img {
+    opacity: 80%;
+}
+/* .card-img-top{
+    opacity: 30%;
+  } */
+.slider {
+    background-color: black;
+}
+.slider_buttom_bg {
+    /* background-color: #b8b7b7; */
+    /* margin-top: 29.59rem; */
+    margin-top: -50px;
+    /* opacity: 90%; */
+    margin-left: 150px;
+    /* text-align: center; */
+}
+.card-text {
+    text-align: center;
+}
+.row align-items-center {
+    color: aliceblue;
+    padding: 50px;
+}
+.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    height: 50px; 
+    width: 50px;
+    margin-top: -30px;
+}
+.card-body {
+    margin-top: -12px;
+}
+
+/*Services design  */
+
+.title_service {
+    text-align: center; 
+    color: #74FFFF;
+    padding-bottom: 40px;
+}
+
+.services_col {
+
+}
+
+.bg {
+    /* background: url('./img/bg.1jpg'); */
+    background-image: url('./img/1.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+
+}
+
+/* Request A Quote start */
+
+.form-container {
+    position: absolute;
+    top: 15vh;
+    background: rgb(93, 132, 240);
+    /* opacity: 20%; */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(81, 106, 247);
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0px solid #1978d6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+}
+/* Request A Quote start */
+
+/* button start */
+.viewOpen {
+    font-size: 15px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid rgba(70, 70, 70, 0.7);
+    max-width: 170px;
+    background: rgb(148, 216, 169);
+    width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    top: 50%;
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 8px 16px -8px #adadad;
+    -moz-box-shadow: 0 8px 16px -8px #adadad;
+    box-shadow: 0 8px 16px -8px #adadad;
+    cursor: pointer;
+    opacity: 80%;
+  }
+  
+  .viewOpen i {
+    color: rgba(70, 70, 70, 0.8);
+  }
+
+  /* button :end */
