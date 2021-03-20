@@ -1,4 +1,6 @@
 @import url('https://fonts.googlepis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -56,4 +58,52 @@ body {
       transform: none;
     }
   }
+  /* footer start  */
+
+   /* Solid border */
+      hr.solid {
+        border-top: 3px solid #bbb;
+      }
+
+      .inp::placeholder {
+        color: #c9c9cb;
+        font-weight: 500;
+        opacity: 2
+    }
+   /* Solid border  end*/
+
+    /* subscribe button start  */
+    
+    .btn {
+        margin: 0px;
+        background-color: #5854ff;
+        border-radius: 5px
+    }
+    
+    .btn:hover {
+        background-color: #3f5dd5
+    }
+    
+    .btn:focus {
+        box-shadow: none;
+        outline: none
+    }
+    
+    *:focus {
+        outline: none;
+        box-shadow: none
+    }
+    .bg-blue {
+      color: #fff;
+      background-color: #222222
+  }
+    /* subscribe button END  */
+
+
+  /* #footer {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 20px #888888;
+  } */
+
   
